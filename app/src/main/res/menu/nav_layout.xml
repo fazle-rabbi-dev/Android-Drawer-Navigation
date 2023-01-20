@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+   tools:showIn="navigation_view"
+>
+
+   <group android:checkableBehavior="single">
+
+      <item
+         android:id="@+id/homeId"
+         android:title="Home"
+         android:icon="@drawable/home"
+      />
+      <item
+         android:id="@+id/aboutId"
+         android:title="About"
+         
+
+      />
+
+      <item
+         android:id="@+id/contactId"
+         android:title="Contact"
+         
+
+      />
+           
+   </group>
+   
+   <item
+      android:title="Others"
+   >
+
+      <menu>
+         
+         <item
+            android:id="@+id/NotificationId"
+            android:title="Notification"
+            />
+         
+         <item
+            android:id="@+id/pid"
+            android:title="Profile"
+         />
+
+         <item
+            android:id="@+id/vid"
+            android:title="Videos"
+         />
+
+         <item
+            android:id="@+id/fid"
+            android:title="Friends"
+         />
+
+         
+         
+      </menu>
+
+   </item>
+
+
+</menu>   
